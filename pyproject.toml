@@ -1,0 +1,27 @@
+[project]
+name = "sysmon"
+version = "0.1.0"
+description = "Simple system monitoring service"
+requires-python = ">=3.11"
+
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=7.0",
+]
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = "-ra -q"
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.coverage.run]
+source = ["src/sysmon"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+skip_empty = true
