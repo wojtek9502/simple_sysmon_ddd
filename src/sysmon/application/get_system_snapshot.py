@@ -1,4 +1,4 @@
-from sysmon.domain.ports import MetricProvider
+from sysmon.application.ports import MetricProvider
 from sysmon.domain.system_snapshot import SystemSnapshot
 
 

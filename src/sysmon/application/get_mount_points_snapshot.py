@@ -1,7 +1,7 @@
 from typing import List
 
 from sysmon.domain.mountpoint_snapshot import MountPointSnapshot
-from sysmon.domain.ports import MetricProvider
+from sysmon.application.ports import MetricProvider
 
 
 class GetMountPointsSnapshot:
