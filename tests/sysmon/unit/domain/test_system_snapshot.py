@@ -1,4 +1,3 @@
-# tests/unit/test_system_snapshot.py
 from src.sysmon.domain.system_snapshot import (
     CPU_PERCENT_CRITICAL_THRESHOLD,
     CPU_PERCENT_WARNING_THRESHOLD,

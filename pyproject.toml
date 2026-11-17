@@ -19,7 +19,7 @@ testpaths = ["tests"]
 pythonpath = ["src"]
 
 [tool.coverage.run]
-source = ["src/sysmon"]
+source = ["src/sysmon/application/","src/sysmon/domain/", "src/sysmon/infrastructure/"]
 branch = true
 
 [tool.coverage.report]
